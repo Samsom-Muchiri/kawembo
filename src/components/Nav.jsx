@@ -5,7 +5,11 @@ import Footer from "./Footer";
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  useEffect(() => {
+    if (window.innerWidth > 700) {
+      setMenuOpen(true);
+    }
+  }, []);
   useEffect(() => {
     window.addEventListener("click", (e) => {
       if (!e.target.closest(".menu") && !menuOpen) {
