@@ -1,5 +1,5 @@
 import React from "react";
-import "../style sheets/LandingPage.css";
+import "../style sheets/landingPage.css";
 import introIllu from "../assets/page-intro-illu.jpg";
 import workIllu from "../assets/work-illu.png";
 import coreValue from "../assets/corevalue-illu.jpg";
